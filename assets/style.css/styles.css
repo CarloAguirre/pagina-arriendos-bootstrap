@@ -1,0 +1,37 @@
+:root{
+    --font-family: 'Roboto', sans-serif,'Staatliches', cursive;
+    --color-principal: #28a745;
+    --color-fuente: #212529;
+    --color-fuenteSegundaria: #707070;
+    --color-bg: #fff;
+    --color-card: #F8F9FA;
+}
+body{
+    font-family: var(--font-family);
+    background-color: var(--color-bg);
+}
+/* Custom Nav */
+.nav-hover{
+    color: var(--color-bg);
+    opacity: .5;
+}
+.nav-hover:hover{
+    color: var(--color-bg);
+    opacity: 1;
+}
+/* Custom Card  */
+.addText-right{
+    text-align: right;
+}
+.font-bold{
+    font-weight: 900;
+    font-size: larger;
+}
+/* Custom Footer */
+.addFooter{
+    font-weight: 900;
+}
+
+.vertical-align{
+    vertical-align:middle
+}
