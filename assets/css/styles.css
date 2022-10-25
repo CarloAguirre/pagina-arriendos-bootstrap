@@ -20,9 +20,6 @@ body{
     opacity: 1;
 }
 /* Custom Card  */
-.addText-right{
-    text-align: right;
-}
 .font-bold{
     font-weight: 900;
     font-size: larger;
