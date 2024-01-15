@@ -32,3 +32,21 @@ body{
 .vertical-align{
     vertical-align:middle
 }
+.form-container{
+    padding-left: 12vw;
+    padding-right: 12vw ;
+}
+@media (min-width: 768px){
+    .form-container{
+        padding-left: 25vw;
+        padding-right: 25vw ;
+    }
+    
+}
+@media (min-width: 991px){
+    .form-container{
+        padding-left: 35vw;
+        padding-right: 35vw ;
+    }
+   
+}
